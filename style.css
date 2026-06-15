@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-    --branco: #FFFFFF;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --branco: #ffffff;
+    --cor-de-fundo: #acacac;
+    --fundo-senha: #630000;
+    --fundo-texto: #6d0000;
+    --borda: #94b9e4;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -50,7 +50,7 @@ body {
 
 .titulo-secundario {
     font-size: 22px;
-    color: #D5E6FF;
+    color: #000000;
 }
 
 .conteudo-senha {
@@ -71,7 +71,7 @@ body {
 
 #campo-senha {
     background-color: var(--fundo-senha);
-    border: 2px solid rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(0, 0, 0, 0.12);
     color: var(--branco);
     font-family: var(--roboto-mono);
     font-size: 28px;
@@ -138,7 +138,7 @@ body {
 .parametro-senha {
     width: 100%;
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     padding: 22px;
 }
@@ -203,14 +203,14 @@ body {
 .forca-texto {
     margin-bottom: 12px;
     font-size: 18px;
-    color: #D5E6FF;
+    color: #d9f1ff;
 }
 
 .parametro-senha-textos {
     display: flex;
     justify-content: space-between;
     gap: 8px;
-    color: rgba(255, 255, 255, 0.72);
+    color: rgb(188, 239, 255);
     font-size: 14px;
 }
 
@@ -246,4 +246,7 @@ body {
         font-size: 16px;
         padding: 14px;
     }
+}
+#titulo-icone{
+    color: red;
 }
